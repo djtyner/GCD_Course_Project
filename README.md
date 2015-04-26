@@ -27,7 +27,7 @@ Good luck!
 Though there are comments throughout the run_analysis.R file about what the code does, they will be summarized here.
 
 Before executing the R code, you should ensure:
-* you have installed the dplyr package; and
+* you have installed the plyr package; and
 * the following files (from the "data for the project") are in your R working directory: X_test.txt (561 columns), y_test.txt (1 column), subject_test.txt (1 column); X_train.txt (561 columns), y_train.txt (1 column), subject_train.txt (1 column; activity-labels.txt (6 rows, 2 columns), features.txt (563 rows, 2 columns).
 
 ### R code: Step 1
@@ -51,5 +51,5 @@ Before executing the R code, you should ensure:
 * Removes the column in the "data_subset" data frame that contains the Activity Number. 
 
 ### R Code: Step 6
-* Creates another data frame (called "data_final") from the already subsetted data frame that contains the mean of each variable for each activity and each subject.
+* Creates another data frame (called "data_final") from the already subsetted data frame that contains the mean of each variable for each activity and each subject {as per item 5 of the project requirements}.
 * Writes the "data_final" data frame to your R working directory in a file named "output_data.txt".
