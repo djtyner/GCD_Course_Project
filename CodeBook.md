@@ -27,12 +27,12 @@ For each record, the following data was recorded:
 * Triaxial Angular velocity from the gyroscope. 
 * A 561-feature vector with time and frequency domain variables. 
 * Its activity label.
-** 1 - WALKING
-** 2 - WALKING UPSTAIRS
-** 3 - WALKING DOWNSTAIRS
-** 4 - SITTING
-** 5 - STANDING
-** 6 - LAYING 
+	1. 1 - WALKING
+	2. 2 - WALKING UPSTAIRS
+	3. 3 - WALKING DOWNSTAIRS
+	4. 4 - SITTING
+	5. 5 - STANDING
+	6. 6 - LAYING 
 * A numerical identifier of the subject who carried out the experiment (numbers 1 thru 30)
 
 The dataset includes the following files:
